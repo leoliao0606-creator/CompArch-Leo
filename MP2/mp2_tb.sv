@@ -17,7 +17,8 @@ module mp2_tb;
 
     initial begin
         $dumpfile("mp2.vcd");
-        $dumpvars(0, u0.red_duty, u0.green_duty, u0.blue_duty);
+        $dumpvars(0, u0.red_duty, u0.green_duty, u0.blue_duty,
+             u0.red_on, u0.green_on, u0.blue_on);
 
         repeat (CYCLES_TO_SIMULATE * CLOCKS_PER_CYCLE + 1) @(posedge clk);
         $finish;
