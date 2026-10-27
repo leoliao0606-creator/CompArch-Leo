@@ -1,0 +1,9 @@
+// glider. One line = one row, bit 0 (LSB) = column 0.
+00
+04
+08
+0E
+00
+00
+00
+00

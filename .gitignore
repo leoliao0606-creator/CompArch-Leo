@@ -1,0 +1,10 @@
+# Build outputs (yosys / nextpnr / icepack)
+*.json
+*.asc
+*.bin
+*.blif
+
+# Simulation outputs (iverilog / vvp)
+*.vvp
+*.vcd
+a.out
